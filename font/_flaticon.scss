@@ -1,0 +1,82 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/09/2019 02:58
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-advisor:before { content: "\f100"; }
+.flaticon-test:before { content: "\f101"; }
+.flaticon-checked:before { content: "\f102"; }
+.flaticon-mail:before { content: "\f103"; }
+.flaticon-team:before { content: "\f104"; }
+.flaticon-work:before { content: "\f105"; }
+.flaticon-customer-service:before { content: "\f106"; }
+.flaticon-hourglass:before { content: "\f107"; }
+.flaticon-team-1:before { content: "\f108"; }
+.flaticon-envelope:before { content: "\f109"; }
+.flaticon-clock-circular-outline:before { content: "\f10a"; }
+.flaticon-auricular-phone-symbol-in-a-circle:before { content: "\f10b"; }
+.flaticon-menu-button-of-three-lines:before { content: "\f10c"; }
+.flaticon-shield:before { content: "\f10d"; }
+.flaticon-social-email-circular-button:before { content: "\f10e"; }
+.flaticon-placeholder-outline:before { content: "\f10f"; }
+.flaticon-facebook-logo:before { content: "\f110"; }
+.flaticon-linkedin-logo:before { content: "\f111"; }
+.flaticon-twitter-logo-on-black-background:before { content: "\f112"; }
+.flaticon-target:before { content: "\f113"; }
+.flaticon-delete:before { content: "\f114"; }
+    
+    $font-Flaticon-advisor: "\f100";
+    $font-Flaticon-test: "\f101";
+    $font-Flaticon-checked: "\f102";
+    $font-Flaticon-mail: "\f103";
+    $font-Flaticon-team: "\f104";
+    $font-Flaticon-work: "\f105";
+    $font-Flaticon-customer-service: "\f106";
+    $font-Flaticon-hourglass: "\f107";
+    $font-Flaticon-team-1: "\f108";
+    $font-Flaticon-envelope: "\f109";
+    $font-Flaticon-clock-circular-outline: "\f10a";
+    $font-Flaticon-auricular-phone-symbol-in-a-circle: "\f10b";
+    $font-Flaticon-menu-button-of-three-lines: "\f10c";
+    $font-Flaticon-shield: "\f10d";
+    $font-Flaticon-social-email-circular-button: "\f10e";
+    $font-Flaticon-placeholder-outline: "\f10f";
+    $font-Flaticon-facebook-logo: "\f110";
+    $font-Flaticon-linkedin-logo: "\f111";
+    $font-Flaticon-twitter-logo-on-black-background: "\f112";
+    $font-Flaticon-target: "\f113";
+    $font-Flaticon-delete: "\f114";
